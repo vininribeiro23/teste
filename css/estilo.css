@@ -1,0 +1,406 @@
+
+header {
+     
+    
+    
+}
+header div{
+   
+    
+}
+header #banner img{
+    width: 100%;
+    margin-top:-10px;
+    
+    
+    
+}
+
+header #container{
+    display: block;
+}
+nav{
+   
+   background-color: #8157c5;
+ 
+ 
+}
+nav ul{
+    
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    align-items: center;
+    height: 10px;
+    padding: 10px;
+    margin: 10px;
+    
+    
+}
+nav ul li a{
+    font-family: sans-serif;
+    font-size: 12px;
+    color: #FFF;
+    text-decoration: none;
+    padding-right: 40px;
+}
+
+
+#logo-content{
+    display: flex;
+    justify-content:space-around;
+    
+    
+    
+}
+#logo-content input{
+    background-color: #FFF;
+    background-image: url('../img/exportacao_0002s_0000s_0000_lupa.png');
+    background-repeat: no-repeat;
+    background-position: 140px;
+    height: 22px;
+    opacity: 0.2;
+    
+}
+
+ #logo{
+    width: 150px;
+    
+}
+.car-user img{
+    width: 18px;
+    height: 20px;
+    padding-left: 10px;
+
+}
+    main section{
+             display: flex;
+             align-items: center;
+             justify-content: center;
+             margin-top: 20px;
+             font-size: 14px;
+             font-family: 'Montserrat', sans-serif;
+             
+         }
+         main section div:hover{
+             cursor: pointer;
+            
+
+         }
+        /*.produtos img:hover{
+            opacity: 0.3;
+        
+            
+         }*/
+        
+         .produtos img {
+            width: 200px;
+            height: 180px;
+            padding: 15px;
+           
+            
+         }
+         
+         
+         .produtos div strong{
+                
+            position: absolute; 
+            background-color: #8157c5;
+            width: 55px;
+            height: 17px;
+            color: #FFF;
+            font-size: 13px;
+            text-align: center;
+            margin-top: -10px;
+         }
+         .produtos div p {
+            display: flex;
+            justify-content: center;  
+         }
+         .produtos div span{
+            display: flex;
+            justify-content: center; 
+            font-weight: bold;
+            margin-top: -10px;
+         }
+
+
+         #option{
+             background-color: #ffa100;
+             align-items: center;
+             margin-top: -5px;
+             
+         }
+         #option img{
+             width: 250px;
+             height: 70px;
+             padding: 6px;
+             
+         }
+         .cat-dog img{
+             width: 500px;
+             height: 180px;
+            padding: 5px;
+            margin-top: 25px;
+             
+         }
+          main section h1{
+            font-family: 'Montserrat', sans-serif;
+            font-size: 24px;
+            opacity: 0.6;
+            font-weight: bold;
+         }
+      
+    
+    
+
+    .popup{
+        position: relative;
+        display: none;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(0, 0, 0, 0.186);
+        margin-top: -285px;
+        width: 200px;
+        height: 180px;
+        
+        transition: 0.5s;
+    }
+    section div:hover .popup{
+        position: absolute;
+        transition: 0.5s;
+        display: flex;
+        width: 220px;
+        height: 225px;
+    }
+    
+    .popup button {
+        border: none;
+        background-color: #ffa100;
+        width: 110px;
+        height: 35px;
+        color: #fff;
+        cursor: pointer;
+        font-size: 12px;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    footer{
+        background-color: #8157c5;
+        width: 100%;
+        height: 270px;
+        margin-top: 100px;
+    }
+    footer section{
+        display: flex;
+        justify-content: center;
+        color: #FFF;
+        
+    }
+    footer section div{
+        display: flex;
+        padding-right: 100px;
+        margin-top: 10px;
+
+    }
+  
+    footer div img{
+        width: 20px;
+        height: 20px;
+        
+    }
+    footer #section-01 div  p{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 12px;
+        font-weight: bold;
+
+    }
+    footer #section-01 div a{
+        opacity: 0.7;
+    }
+
+    footer #section-01 img{
+        width: 25px;
+        height: 25px;
+        margin-top: 8px;
+        padding-right: 5px;
+    }
+     #underline{
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+    color: #ffa100;
+    }
+
+     #newsletter{
+        display: grid;
+        justify-content: center;
+        text-align: center;
+        color:#FFF;
+        font-family: 'Montserrat', sans-serif;
+        font-size:   18px;
+    }
+    #newsletter a{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 15px;
+        margin-top: -10px;
+    }
+
+    #newsletter form{
+        margin-top: 40px;
+
+    }
+
+    footer section .input-form{
+        border-left: 0;
+        border-right: 0;
+        border-top: 0;
+        border-bottom: 2px solid #FFF;
+        background-color: #8157c5;
+        font-family: 'Montserrat', sans-serif;
+        width: 200px;
+        padding-right: 20px;
+    }
+
+    footer section .input-form::placeholder{
+        color: #FFF;
+        
+    }
+    #newsletter button{
+        background-color: #ffa100;
+        border: 0;
+        width: 80px;
+        height: 30px;
+        color: #FFF;
+        font-weight: bold;
+    }
+    footer #section-03{
+        margin-top:60px;
+       
+
+    }
+
+    footer section   .info{
+        display: grid;
+        color: black;
+        padding-right: 100px;
+    } 
+    footer  .info img{
+        width: 100px;
+        height: 100px;
+    
+    }
+
+    footer .info p{
+        display: flex;
+        color: #8157c5;
+        font-weight: bold;
+        font-family: 'Montserrat', sans-serif;
+    }
+    footer .info span{
+        margin-top: 10px;
+        display: grid;
+        justify-content: flex-start;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 12px;
+        font-weight: bold;
+        opacity: 0.6;
+    }
+    footer #pagamentos{
+        display: flex;
+        color: #8157c5;
+        font-weight: bold;
+        display: table-column-group;
+        font-family: 'Montserrat', sans-serif;
+    }
+    footer #pagamentos img{
+        width: 40px;
+        height: 25px;
+    }
+
+    footer #underline-02{
+        color:  rgba(0, 0, 0, 0.186);
+        display: flex;
+         justify-content: center;
+         margin-top: 80px;
+
+    }
+    #section-04{
+        height: 100px;
+    }
+    footer #section-04  div p{
+        color: black;
+        font-size: 10px;
+        padding-right: 20px;
+        font-weight: bold;
+        opacity: 0.5;
+        font-family: 'Montserrat', sans-serif;
+    }
+    footer #section-04  div img{
+        width: 50px;
+         margin-top: 8px;
+         
+
+    }
+
+    @media ( max-width: 768px){
+
+        html{
+
+            min-width: 480px;
+            max-width: 770px;
+            margin: auto;
+        }
+
+        header #container {
+            display: flex;
+        }
+        header #container a{
+            padding-right: 35px;
+        }
+         #option div img{
+            width: 140px;
+            height: 30px;
+
+        }
+        main  .produtos{
+            display: grid;
+            
+
+        
+        }
+        .cat-dog img{
+            width: 190px;
+            height: 130px;
+            
+        }
+
+
+        #section-01 div{
+            
+        padding-right: 40px;
+         width: 100px;
+
+        }
+        #section-02{
+            background-color: #8157c5;
+            ;
+        }
+        #section-03{
+            display: grid;
+        }
+
+        #newsletter{
+            margin-left: 100px;
+        }
+    }
+
+
+
+
+
+   
+   
+    
+
+

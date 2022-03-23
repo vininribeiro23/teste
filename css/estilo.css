@@ -55,7 +55,7 @@ nav ul li a{
 }
 #logo-content input{
     background-color: #FFF;
-    background-image: url('../img/exportacao_0002s_0000s_0000_lupa.png');
+    background-image: url('../assets/exportacao_0002s_0000s_0000_lupa.png');
     background-repeat: no-repeat;
     background-position: 140px;
     height: 22px;
@@ -220,10 +220,10 @@ nav ul li a{
     }
 
     footer #section-01 img{
-        width: 25px;
+        width: 30px;
         height: 25px;
         margin-top: 8px;
-        padding-right: 5px;
+        padding-right: 10px;
     }
      #underline{
     display: flex;
@@ -286,9 +286,17 @@ nav ul li a{
         padding-right: 100px;
     } 
     footer  .info img{
-        width: 100px;
-        height: 100px;
+        width: 250px;
+        height: 70px;
+        display: flex;
     
+    }
+    footer #contact img{
+        width: 40px;
+        height: 40px;
+        margin: 5px;
+        display: flex;
+        
     }
 
     footer .info p{
